@@ -1,13 +1,12 @@
-body {
-    font-family: Figtree, sans-serif;
-    width: 100%vw;
-    height: 100%vh;
+html, body {
+    height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+body {
     background-color: hsl(47, 88%, 63%);
-    margin-top: 24px;
-    padding: 24px;
 }
 
 .container {

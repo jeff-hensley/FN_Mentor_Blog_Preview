@@ -6,6 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(47, 88%, 63%);
+    margin-top: 24px;
+    padding: 24px;
 }
 
 .container {
@@ -29,6 +31,7 @@ body {
     border-radius: 10px;
     margin-bottom: 12px;
     margin-left: 24px;
+    margin-right: 24px;
     
 }
 
@@ -77,3 +80,13 @@ body {
     font-weight: 800;
 }
 
+
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    
